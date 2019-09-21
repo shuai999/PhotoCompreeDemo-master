@@ -66,11 +66,11 @@ public class FourActivity extends AppCompatActivity implements View.OnClickListe
         String age2 = bundle.getString("age") ;
 
         // serizlizable获取数据
-        //Person person = (Person) getIntent().getSerializableExtra("person");
+        Person person = (Person) getIntent().getSerializableExtra("person");
 
 
         // 获取bitmap
-        Bitmap bitmap = getIntent().getParcelableExtra("bitmap") ;
+//        Bitmap bitmap = getIntent().getParcelableExtra("bitmap") ;
 
 
 
