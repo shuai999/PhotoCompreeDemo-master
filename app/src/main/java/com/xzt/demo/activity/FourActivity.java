@@ -70,7 +70,7 @@ public class FourActivity extends AppCompatActivity implements View.OnClickListe
 
 
         // 获取bitmap
-//        Bitmap bitmap = getIntent().getParcelableExtra("bitmap") ;
+        Bitmap bitmap = getIntent().getParcelableExtra("bitmap") ;
 
 
 
