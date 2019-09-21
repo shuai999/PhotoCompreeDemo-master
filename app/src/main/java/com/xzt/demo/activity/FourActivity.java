@@ -55,9 +55,9 @@ public class FourActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_four);
 
-        /*// intent获取数据
+        // intent获取数据
         String name = getIntent().getStringExtra("name") ;
-        String age = getIntent().getStringExtra("age") ;*/
+        String age = getIntent().getStringExtra("age") ;
 
 
         /*// bundle获取数据
