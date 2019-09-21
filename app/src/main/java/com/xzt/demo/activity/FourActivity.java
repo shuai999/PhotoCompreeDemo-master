@@ -60,18 +60,19 @@ public class FourActivity extends AppCompatActivity implements View.OnClickListe
         String age = getIntent().getStringExtra("age") ;
 
 
-        /*// bundle获取数据
+        // bundle获取数据
         Bundle bundle = getIntent().getExtras();
-        String name = bundle.getString("name") ;
-        String age = bundle.getString("age") ;*/
+        String name2 = bundle.getString("name") ;
+        String age2 = bundle.getString("age") ;
 
         // serizlizable获取数据
-        //Person person = (Person) getIntent().getSerializableExtra("person");
+        Person person = (Person) getIntent().getSerializableExtra("person");
 
 
         // 获取bitmap
         Bitmap bitmap = getIntent().getParcelableExtra("bitmap") ;
 
+        // 创建bug分支之后修改的代码
 
 
 
